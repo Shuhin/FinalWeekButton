@@ -1,26 +1,27 @@
 package com.jeeonbangladesh.weekdraft3;
 
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
+            import android.support.annotation.NonNull;
+            import android.support.v7.app.AppCompatActivity;
+            import android.os.Bundle;
+            import android.view.View;
+            import android.widget.Button;
+            import android.widget.Toast;
 
-import com.prolificinteractive.materialcalendarview.CalendarDay;
-import com.prolificinteractive.materialcalendarview.CalendarMode;
-import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
-import com.prolificinteractive.materialcalendarview.OnDateLongClickListener;
-import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
+            import com.prolificinteractive.materialcalendarview.CalendarDay;
+            import com.prolificinteractive.materialcalendarview.CalendarMode;
+            import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
+            import com.prolificinteractive.materialcalendarview.OnDateLongClickListener;
+            import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
 
-import org.threeten.bp.DayOfWeek;
-import org.threeten.bp.Month;
-import org.threeten.bp.Year;
+            import org.threeten.bp.DayOfWeek;
+            import org.threeten.bp.Month;
+            import org.threeten.bp.Year;
 
-import java.util.Calendar;
-import java.util.Date;
+            import java.util.Calendar;
+            import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                   setContentView(R.layout.single_cell_layout);
+                         setContentView(R.layout.single_cell_layout);
             }
         });
 

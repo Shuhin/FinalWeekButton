@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Week Button</string>
+    <string name="app_name">Event Calendar(Weekly)</string>
     <string name="add_event"> Add Event + </string>
     <string name="current_date">December, 2018</string>
+    <string name="last_date">31</string>
+
 </resources>
